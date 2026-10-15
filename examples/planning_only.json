@@ -1,0 +1,35 @@
+{
+  "mode": "planning",
+  "run_id": "smoke-planning",
+  "run_category": "smoke",
+  "tool": {
+    "qxdm_binding": "simulation",
+    "qcat_binding": "simulation",
+    "rotation_bytes": 250000000,
+    "qcat_template": [
+      "{qcat_exe}",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}"
+    ]
+  },
+  "paths": {
+    "capture_root": "./examples/_runtime/smoke-planning/raw",
+    "conversion_root": "./examples/_runtime/smoke-planning/conversion",
+    "publication_root": "./examples/_runtime/smoke-planning/published",
+    "run_workspace_root": "./examples/_runtime/smoke-planning/workspace",
+    "filename_prefix": "QXDM_Log"
+  },
+  "timing": {
+    "capture_duration": 60,
+    "readiness_timeout": 5,
+    "stop_timeout": 5,
+    "flush_timeout": 5,
+    "conversion_timeout": 30,
+    "monitor_interval": 1
+  },
+  "policy": {
+    "min_free_bytes": 0
+  }
+}

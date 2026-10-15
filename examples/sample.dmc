@@ -1,0 +1,9 @@
+{
+  "_comment": "Synthetic DMC file used by the offline smoke configuration. Not a real QXDM .dmc; the simulation adapter accepts any non-empty file with a recognised extension and uses the SHA-256 only to confirm the orchestrator loaded it.",
+  "synthetic": true,
+  "items": [
+    "0x108C",
+    "0x108D",
+    "0x11A0"
+  ]
+}

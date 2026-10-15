@@ -1,0 +1,355 @@
+{
+  "binaries": [
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000001.dlf",
+      "segment_index": 1,
+      "sha256": "767ae10a0718889e170509d0e4a15dd69fa8e82727525bec99b94b92ab81dcfd",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000002.dlf",
+      "segment_index": 2,
+      "sha256": "fbeac58f39a02723aa5fe934756628ccf8bb47d17d9245ff76450f7cb88bdaae",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000003.dlf",
+      "segment_index": 3,
+      "sha256": "fb6979e04a0d9d557dae26a8680f886a9444d152dcba4a2640bc4d881a3e4f44",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000004.dlf",
+      "segment_index": 4,
+      "sha256": "15fedb261b2665db8cd7255df328330a5244160c24065104771d85cd7a8dc684",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000005.dlf",
+      "segment_index": 5,
+      "sha256": "c63a0c48fb1c5fe03284ce874b684d16459cfaf37b33e8b87e140d6e13d97b29",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000006.dlf",
+      "segment_index": 6,
+      "sha256": "29017ee7d3488a5e7781f4d82e21e00367138a03224417044e4a192ca0ed05e8",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000007.dlf",
+      "segment_index": 7,
+      "sha256": "d2aacda33b0432ddd4efbf90b073969f6e3be273eaaa192961357d48bfbc1716",
+      "size_bytes": 4096,
+      "status": "finalized"
+    },
+    {
+      "error": null,
+      "path": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000008.dlf",
+      "segment_index": 8,
+      "sha256": "4a6a32057d6d07cab8326416c2fce638b9bceca060fef389fd65b19eba7993cf",
+      "size_bytes": 4096,
+      "status": "finalized"
+    }
+  ],
+  "config_path": "C:\\Users\\91981\\Documents\\CompNova\\qxdm_automation_backend\\examples\\offline_sim.json",
+  "config_sha256": "b18a2b180be7fcc7b1c623b7843f05f41a2bf211ff703d1d573b87f1db941746",
+  "conversions": [
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000001__seg-0001.txt",
+      "returncode": 0,
+      "sha256": "212bf7bd65b36a077817f1abfd95822b7c13ff36d5af22415df577c072059738",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000001.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000002__seg-0002.txt",
+      "returncode": 0,
+      "sha256": "e6b8758d201990519aeea2c0e513ec4e71eb6ec766b5a9c57f07b8fabc31e603",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000002.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000003__seg-0003.txt",
+      "returncode": 0,
+      "sha256": "437970fde7ab8de9bbb5433d047ffcf7afb426ab540f83c9039dfbde1d7e3e2d",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000003.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000004__seg-0004.txt",
+      "returncode": 0,
+      "sha256": "013526c38cd9b19d3201c6834cab44238a3fe1f25ff7a71e0e079675f25557de",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000004.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000005__seg-0005.txt",
+      "returncode": 0,
+      "sha256": "d5298fbfa17f152a2347cba000ea20de00902c9f974cdb5387f1a0726afc146b",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000005.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000006__seg-0006.txt",
+      "returncode": 0,
+      "sha256": "c06967cf8e7789e10b5441efb48d6d503a11b563e4b367125a34aa5db35bbf77",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000006.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000007__seg-0007.txt",
+      "returncode": 0,
+      "sha256": "45bf88a4a8124ee62241ff70c5bb8a6d7a2c33c6d6d982ba3e7c82297aaae5e6",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000007.dlf",
+      "timed_out": false
+    },
+    {
+      "attempts": 1,
+      "encoding": "utf-8",
+      "error": null,
+      "evidence": "simulation: wrote synthetic text output",
+      "output_path": "examples\\_runtime\\smoke-offline\\conversion\\smoke-offline\\QXDM_Log_000008__seg-0008.txt",
+      "returncode": 0,
+      "sha256": "53598a1da2dd5a8519083b7cc6a34a63638cf6fab1ca7c9ff187e8a663da574d",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000008.dlf",
+      "timed_out": false
+    }
+  ],
+  "created_at": "2026-10-14T08:58:52.978643+00:00",
+  "current_state": "COMPLETED",
+  "extra": {},
+  "failure_reason": null,
+  "final_outputs": [
+    {
+      "encoding": "utf-8",
+      "sha256": "212bf7bd65b36a077817f1abfd95822b7c13ff36d5af22415df577c072059738",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000001.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000001__seg-0001.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "e6b8758d201990519aeea2c0e513ec4e71eb6ec766b5a9c57f07b8fabc31e603",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000002.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000002__seg-0002.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "437970fde7ab8de9bbb5433d047ffcf7afb426ab540f83c9039dfbde1d7e3e2d",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000003.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000003__seg-0003.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "013526c38cd9b19d3201c6834cab44238a3fe1f25ff7a71e0e079675f25557de",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000004.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000004__seg-0004.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "d5298fbfa17f152a2347cba000ea20de00902c9f974cdb5387f1a0726afc146b",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000005.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000005__seg-0005.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "c06967cf8e7789e10b5441efb48d6d503a11b563e4b367125a34aa5db35bbf77",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000006.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000006__seg-0006.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "45bf88a4a8124ee62241ff70c5bb8a6d7a2c33c6d6d982ba3e7c82297aaae5e6",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000007.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000007__seg-0007.txt"
+    },
+    {
+      "encoding": "utf-8",
+      "sha256": "53598a1da2dd5a8519083b7cc6a34a63638cf6fab1ca7c9ff187e8a663da574d",
+      "size_bytes": 26927,
+      "source_binary": "examples\\_runtime\\smoke-offline\\raw\\QXDM_Log_000008.dlf",
+      "text_path": "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000008__seg-0008.txt"
+    }
+  ],
+  "mode": "offline",
+  "run_category": "smoke",
+  "run_id": "smoke-offline",
+  "transitions": [
+    {
+      "extras": {
+        "blocking_reasons": [],
+        "warnings": []
+      },
+      "note": "preflight passed",
+      "state": "PREFLIGHT_OK",
+      "timestamp": "2026-10-14T08:58:53.049995+00:00"
+    },
+    {
+      "extras": {
+        "attachment": "owned",
+        "pid": 14984,
+        "session_id": "sim-14984-1-1791968333082211"
+      },
+      "note": "qxdm session opened",
+      "state": "TOOL_READY",
+      "timestamp": "2026-10-14T08:58:53.082211+00:00"
+    },
+    {
+      "extras": {
+        "description": "simulated QXDM target",
+        "target": "COM-SIM-1"
+      },
+      "note": "target connected: COM-SIM-1",
+      "state": "TARGET_READY",
+      "timestamp": "2026-10-14T08:58:53.094652+00:00"
+    },
+    {
+      "extras": {
+        "evidence": "configuration hash e7002ec74fdb accepted by simulation"
+      },
+      "note": "configuration accepted",
+      "state": "CONFIG_READY",
+      "timestamp": "2026-10-14T08:58:53.105744+00:00"
+    },
+    {
+      "extras": {
+        "binary_format": ".dlf",
+        "capture_root": "examples\\_runtime\\smoke-offline\\raw",
+        "filename_prefix": "QXDM_Log",
+        "rotation_bytes": 4096
+      },
+      "note": "capture configuration applied",
+      "state": "CAPTURE_CONFIGURED",
+      "timestamp": "2026-10-14T08:58:53.117194+00:00"
+    },
+    {
+      "extras": {
+        "capture_root": "examples\\_runtime\\smoke-offline\\raw",
+        "filename_prefix": "QXDM_Log",
+        "started_at": "2026-10-14T08:58:53Z"
+      },
+      "note": "capture start requested",
+      "state": "START_REQUESTED",
+      "timestamp": "2026-10-14T08:58:53.128386+00:00"
+    },
+    {
+      "extras": {
+        "started_at": "2026-10-14T08:58:53Z"
+      },
+      "note": "capture confirmed started",
+      "state": "CAPTURING",
+      "timestamp": "2026-10-14T08:58:53.149394+00:00"
+    },
+    {
+      "extras": {},
+      "note": "capture stop requested",
+      "state": "STOP_REQUESTED",
+      "timestamp": "2026-10-14T08:58:56.180629+00:00"
+    },
+    {
+      "extras": {},
+      "note": "finalising capture",
+      "state": "FINALIZING",
+      "timestamp": "2026-10-14T08:58:56.212772+00:00"
+    },
+    {
+      "extras": {
+        "binary_count": 8,
+        "cap_violations": []
+      },
+      "note": "capture finalised",
+      "state": "CAPTURE_FINALIZED",
+      "timestamp": "2026-10-14T08:58:56.232901+00:00"
+    },
+    {
+      "extras": {},
+      "note": "starting conversion",
+      "state": "CONVERTING",
+      "timestamp": "2026-10-14T08:58:56.245973+00:00"
+    },
+    {
+      "extras": {
+        "publication_contract": "run_folder"
+      },
+      "note": "publishing TXT outputs",
+      "state": "PUBLISHING",
+      "timestamp": "2026-10-14T08:58:56.435918+00:00"
+    },
+    {
+      "extras": {
+        "consumer_paths": [
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000001__seg-0001.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000002__seg-0002.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000003__seg-0003.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000004__seg-0004.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000005__seg-0005.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000006__seg-0006.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000007__seg-0007.txt",
+          "examples\\_runtime\\smoke-offline\\published\\smoke-offline\\QXDM_Log_000008__seg-0008.txt"
+        ],
+        "publication_root": "examples\\_runtime\\smoke-offline\\published",
+        "published_count": 8
+      },
+      "note": "run completed",
+      "state": "COMPLETED",
+      "timestamp": "2026-10-14T08:58:56.684282+00:00"
+    }
+  ],
+  "updated_at": "2026-10-14T08:58:56.685279+00:00"
+}

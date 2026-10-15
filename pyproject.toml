@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qxdm_automation"
+version = "0.1.0"
+description = "CompNova QXDM capture and QCAT text handoff."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [{ name = "CompNova" }]
+
+[project.scripts]
+qxdm-automation = "qxdm_automation.cli:main"
+
+[project.optional-dependencies]
+vendor = [
+    "pywin32>=306; sys_platform=='win32'",
+    "psutil>=5.9; sys_platform=='win32'",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]

@@ -1,0 +1,45 @@
+{
+  "mode": "offline",
+  "run_id": "smoke-offline",
+  "run_category": "smoke",
+  "tool": {
+    "qxdm_binding": "simulation",
+    "qcat_binding": "simulation",
+    "rotation_bytes": 4096,
+    "qcat_template": [
+      "{qcat_exe}",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}"
+    ]
+  },
+  "paths": {
+    "capture_root": "./examples/_runtime/smoke-offline/raw",
+    "conversion_root": "./examples/_runtime/smoke-offline/conversion",
+    "publication_root": "./examples/_runtime/smoke-offline/published",
+    "run_workspace_root": "./examples/_runtime/smoke-offline/workspace",
+    "filename_prefix": "QXDM_Log",
+    "binary_extensions": [".dlf", ".bin", ".isf", ".hdf", ".qmdl"]
+  },
+  "timing": {
+    "capture_duration": 3,
+    "readiness_timeout": 5,
+    "stop_timeout": 5,
+    "flush_timeout": 5,
+    "conversion_timeout": 30,
+    "monitor_interval": 0.1
+  },
+  "policy": {
+    "attachment": "owned",
+    "retention": "retain",
+    "max_retries": 1,
+    "min_free_bytes": 0,
+    "stale_lock_seconds": 3600,
+    "allow_unicode_paths": true,
+    "allow_network_destination": false
+  },
+  "device_selector": "COM-SIM-1",
+  "qxdm_dmc_path": "examples/sample.dmc",
+  "auto_discover": true
+}
